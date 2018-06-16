@@ -5,6 +5,14 @@ Not terribly useful.
 
 The package only has an ESM build and is mainly/only for use in a browser context.
 
+Install
+-------
+`yarn add @zenmumbler/mini-dom`
+
+or
+
+`npm install @zenmumbler/mini-dom`
+
 Interface
 ---------
 ```ts
