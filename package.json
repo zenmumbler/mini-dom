@@ -1,0 +1,24 @@
+{
+	"name": "@zenmumbler/mini-dom",
+	"description": "A minimal dom, formerly part of Stardazed",
+	"version": "1.0.0",
+	"license": "Unlicense",
+	"author": {
+		"name": "Arthur Langereis"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/zenmumbler/mini-dom.git"
+	},
+	"browser": "dist/index.esm.js",
+	"module": "dist/index.esm.js",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"build": "rollup -c"
+	},
+	"devDependencies": {
+		"rollup": "^0.60.7",
+		"rollup-plugin-typescript2": "^0.15.0",
+		"typescript": "^2.9.2"
+	}
+}
