@@ -7,7 +7,7 @@ The package only has an ESM build and is mainly/only for use in a browser contex
 
 Install
 -------
-`yarn add @zenmumbler/mini-dom`
+`pnpm add @zenmumbler/mini-dom`
 
 or
 

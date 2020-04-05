@@ -56,7 +56,7 @@ export function closest(sourceSel: ElemSelector, sel: string): HTMLElement | und
 			return undefined;
 		}
 		const elem = source as HTMLElement;
-		const matchFn = elem.matches || elem.webkitMatchesSelector || elem.msMatchesSelector;
+		const matchFn = elem.matches || elem.webkitMatchesSelector;
 		if (matchFn.call(elem, sel)) {
 			return elem;
 		}
